@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".basic").load("alex.json");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="basic " style="background-color: rgb(255, 0, 17);width: 100px; height: 100px;">hello india </div>
+    <div class="basic" style="background-color: rgb(0, 255, 68);width: 100px; height: 100px;">hello india </div>
+    <div class="basic" style="background-color: aqua;width: 100px; height: 100px;">hello india </div>
+    <button>click</button>
+</body>
+</html>
